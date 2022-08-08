@@ -1,0 +1,221 @@
+@charset "utf-8";
+
+.l_visual_wrap{
+}
+.l_magazine_visual{
+    padding-top:25px;
+    padding-bottom:330px;
+    background-image:url(../images/sub/bg_magazine_banner.jpg);
+    background-repeat:no-repeat;
+}
+.l_magazine_visual>article{
+    width:328px;
+    margin-left:40px;
+    border:1px solid #ccc;
+    background-color:#fff;
+}
+.l_magazine_visual>article>h2{
+    font-size:3.2em;
+    font-weight:bold;
+    text-align:center;
+    letter-spacing:4px;
+    line-height:1.2;
+}
+.l_magazine_visual>article>p{
+    text-align:center;
+    padding-bottom:10px;
+    border-bottom:1px dashed #ccc;
+}
+.l_magazine_visual_con{
+    padding-top:15px;
+    padding-left:15px;
+    color:#545454;
+}
+.l_magazine_visual_con>span{
+    font-size:1.1em;
+    font-weight:bold;
+    text-decoration:underline;
+}
+.l_magazine_visual_con>h3{
+    font-size:1.9em;
+    font-weight:bold;
+    font-style:italic;
+    line-height:1.2;
+    margin-top:30px;
+    margin-bottom:30px;
+    margin-right:100px;
+}
+.l_magazine_visual_con>p{
+    font-size:1.1em;
+    margin-bottom:30px;
+}
+.l_magazine_visual_con>a{
+    display:block;
+    width:90px;
+    font-weight:bold;
+    text-align:center;
+    border:1px solid #545454;
+    padding:5px 0;
+    margin-bottom:20px;
+}
+.l_magazine_visual_con>a:hover, .l_magazine_visual_con>a:focus{
+    text-decoration:none;
+    color:#fff;
+    background-color:#333;
+}
+
+.l_magazine_con_wrap{
+}
+.l_magazine_con_wrap>h2{
+    text-align:center;
+    font-size:2.4em;
+    font-weight:bold;
+    background-image:url(../images/sub/bg_line_title.png);
+    background-repeat:no-repeat;
+    background-position:left center;
+}
+.l_magazine_con_wrap>h2>span{
+    font-weight:normal;
+}
+.l_btn_filter{
+    display:block;
+    width:110px;
+    font-size:1.2em;
+    color:#545454;
+    padding:10px 0;
+    padding-left:50px;
+    border:1px solid #ccc;
+    background-image:url(../images/sub/bg_btn_filter.png);
+    background-repeat:no-repeat;
+    background-position:10px center;
+}
+.l_magazine_arti1{
+    position:relative;
+    margin-top:60px;
+    margin-bottom:60px;
+    margin-left:216px;
+    margin-right:216px;
+    text-align:center;
+    color:#545454;
+}
+.l_magazine_arti1>h3{
+    font-size:2em;
+    font-weight:bold;
+    margin-top:30px;
+    margin-bottom:20px;
+}
+.l_magazine_arti1>p{
+    margin:0 130px;
+}
+.l_magazine_arti1>div{
+    position:absolute;
+    top:0px;
+    left:0px;
+    width:100%;
+    height:100%;
+    background-image:url(../images/sub/bg_magazine_arti1_ov.png);
+}
+.l_magazine_arti1>div>a{
+    display:block;
+    width:176px;
+    height:58px;
+    line-height:58px;
+    margin:0 auto;
+    margin-top:270px;
+    font-size:2em;
+    font-weight:bold;
+    text-decoration:none;
+    border:1px solid #545454;
+}
+.l_magazine_arti1>div>a:hover, .l_magazine_arti1>div>a:focus{
+    background-color:#fff;
+}
+
+.l_magazine_arti_wrap{
+}
+.l_magazine_arti_wrap>article{
+    float:left;
+    width:48%;
+    height:300px;
+    box-sizing:border-box;
+}
+.l_magazine_arti_wrap>article>a{
+    display:block;
+    margin-top:45px;
+    text-decoration:none;
+}
+.l_magazine_arti_wrap>article>a>span{
+    font-size:1.1em;
+}
+.l_magazine_arti_wrap>article>a>h3{
+    margin-top:40px;
+    margin-bottom:40px;
+    font-size:1.2em;
+    font-weight:bold;
+}
+.l_magazine_arti_wrap>article>a>p{
+    text-align:left;
+    letter-spacing:0.1em;
+}
+.l_magazine_arti_in_odd{
+    margin-left:2%;
+    padding-left:304px;
+    padding-right:45px;
+    border-right:1px solid #ccc;    
+    text-align:center;
+    background-repeat:no-repeat;
+    background-position:left center;
+}
+.l_magazine_arti_in_even{
+    padding-right:304px;
+    padding-left:45px;
+    text-align:center;
+    background-repeat:no-repeat;
+    background-position:right center;
+}
+.l_arti_in3, .l_arti_in4{
+    margin-top:100px;
+    margin-bottom:100px;
+}
+.l_magazine_arti_wrap>article.l_arti_in1>a>h3, .l_magazine_arti_wrap>article.l_arti_in5>a>h3{
+    margin-bottom:23px;
+}
+.l_arti_in1{
+    background-image:url(../images/sub/bg_closer_look.jpg);
+}
+.l_arti_in2{
+    background-image:url(../images/sub/bg_lacoste_live.jpg);
+}
+.l_arti_in3{
+    background-image:url(../images/sub/bg_interview_felipe.jpg);
+}
+.l_arti_in4{
+    background-image:url(../images/sub/bg_paris_launch.jpg);
+}
+.l_arti_in5{
+    background-image:url(../images/sub/bg_closer_look2.jpg);
+}
+.l_arti_in6{
+    background-image:url(../images/sub/bg_la_fran.jpg);
+}
+
+.l_btn_more{
+    display:block;
+    width:270px;
+    height:60px;
+    margin:0 auto;
+    line-height:60px;
+    text-align:center;
+    font-size:1.7em;
+    font-weight:bold;
+    border:1px solid #ccc;
+    margin-top:60px;
+    margin-bottom:45px;
+}
+.l_btn_more:hover, .l_btn_more:focus{
+    text-decoration:none;
+    background-color:#333;
+    color:#fff;
+}
+
+

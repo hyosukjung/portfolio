@@ -1,0 +1,89 @@
+@charset "utf-8";
+
+/* banner */
+.k_vs_content_wrap{
+    text-align:center;
+    background-image:url(../images/bg_visual.jpg);
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:cover;
+}
+.k_vs_content_wrap>img{
+    vertical-align:top;
+}
+
+/* container */
+.k_sub_container{
+    position:relative;
+    padding-top:50px;
+}
+    /* lnb */
+#k_lnb_kakao{
+    position:absolute;
+    top:50px;
+    left:0px;
+}
+#k_lnb_kakao>h2{
+    padding-left:55px;
+    margin-bottom:35px;
+    font-size:2.4em;
+    font-weight:bold;
+    color:#fec82f;
+}
+#k_lnb_kakao>ul{
+    padding-left:45px;
+}
+#k_lnb_kakao>ul>li{
+    width:143px;
+}
+#k_lnb_kakao>ul>li>a{
+    display:block;
+    padding:13px 0 13px 10px;
+    border-top:1px solid #999;
+    font-size:1.2em;
+    font-weight:bold;
+    color:#333;
+}
+#k_lnb_kakao>ul>li>a.clicked_on{
+    background-color:#f9df4a;
+}
+#k_lnb_kakao>ul>li>a:hover{
+    background-color:#f9df4a;
+}
+#k_lnb_kakao>ul>li:first-child>a{
+    border-top:none;
+}
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    

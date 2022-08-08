@@ -1,0 +1,22 @@
+@charset "utf-8";
+
+/* pc */
+@media screen and (min-width:1280px) and (max-width:1919px) {
+    .h_footer{
+        padding-top:10px;
+        padding-bottom:10px;
+    }
+    
+    .h_news>ul>li>a>h4{
+        font-size:1.1em;
+    }
+    .h_news>ul>li:nth-child(2){
+        margin-top:10px;
+        margin-bottom:10px;
+    }
+    
+    .h_newsletter>a{
+        padding-right:25px;
+        padding-left:25px;
+    }
+}

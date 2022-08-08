@@ -1,0 +1,135 @@
+@charset "utf-8";
+
+    /* k_sub_service */
+.k_sub_service{
+    position:relative;
+    margin-left:247px;
+    margin-right:52px;
+}  
+.k_depth{
+    position:absolute;
+    top:0px;
+    right:0px;
+    color:#333;
+}
+.k_sub_service>h2{
+    margin-bottom:35px;
+    font-size:2.7em;
+    color:#333;
+}
+.k_sub_service>p{
+    font-size:1.1em;
+    margin-bottom:85px;
+}
+.k_sub_service>ul>li{
+    margin-bottom:20px;
+    border-bottom:1px solid #ccc;
+    background-repeat:no-repeat;
+    background-position:left 48px;
+}
+.k_sub_service>ul p{
+    font-size:1.1em;
+    margin-left:255px;
+}
+.k_sub_service>ul p{
+    margin-bottom:50px;
+}
+.k_sub_service>ul h3{
+    margin-bottom:10px;
+    font-size:2.1em;
+    color:#333;
+}
+.k_service_commu{
+    padding-bottom:110px;
+    background-image:url(../images/sub/bg_communication.jpg);
+}
+.k_service_media{
+    padding-bottom:30px;
+    background-image:url(../images/sub/bg_media.jpg);
+}
+.k_service_game{
+    padding-bottom:70px;
+    background-image:url(../images/sub/bg_game.jpg);
+}
+.k_service_life{
+    padding-bottom:70px;
+    background-image:url(../images/sub/bg_taxi.jpg);
+}
+.k_servie_pin{
+    padding-bottom:70px;
+    background-image:url(../images/sub/bg_pintech.jpg);
+}
+.k_service_search{
+    padding-bottom:90px;
+    background-image:url(../images/sub/bg_search.jpg);
+}
+.k_sub_service>ul ul{
+    margin-left:314px;
+    margin-right:147px;
+}
+.k_sub_service>ul ul>li{
+    float:left;
+    width:166px;
+    padding-bottom:5px;
+}
+.k_sub_service>ul ul>li>a{
+    font-size:1.1em;
+    font-weight:bold;
+    color:#333;
+}
+.k_sub_service>ul ul>li>a:hover, .k_sub_service>ul ul>li>a:focus{
+    text-decoration:underline;
+}
+.k_see_all_service{
+}
+.k_see_all_service>span{
+    font-size:1.8em;
+    font-weight:bold;
+    color:#333;
+    margin-right:70px;
+}
+.k_see_all_service>a{
+    display:inline-block;
+    width:180px;
+    height:35px;
+    margin-right:20px;
+    border:1px solid #999;
+    text-align:center;
+    line-height:35px;
+    font-size:1.4em;
+    color:#333;
+    background-color:#fff;
+}
+.k_see_all_service>a:hover, .k_see_all_service>a:focus{
+    color:#fff;
+    background-color:#333;
+}
+.k_see_all_service>a.see_all_kakao_service{
+    margin-right:0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
